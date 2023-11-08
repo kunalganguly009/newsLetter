@@ -78,7 +78,7 @@ app.post("/subscribe" ,isSubscribed , async(req , res)=>{
             \n
 
             To unsubscribe from our email newsletter, please visit the link below
-            /unsub
+            https://my-upcoming-news.vercel.app/unsubscribe
             
             `
         };
