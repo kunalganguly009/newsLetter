@@ -46,7 +46,7 @@ async function SendNewsRoute(
             \n
             \n
             \nTo unsubscribe from our email newsletter, please visit the link below
-            /unsub
+            https://my-upcoming-news.vercel.app/unsubscribe
             
       `,
     };
@@ -73,7 +73,7 @@ async function SendNewsRoute(
             \n
             \n
             To unsubscribe from our email newsletter, please visit the link below
-            /unsub
+            https://my-upcoming-news.vercel.app/unsubscribe
       `,
     };
 
@@ -100,7 +100,7 @@ async function SendNewsRoute(
             \n
             \n
             To unsubscribe from our email newsletter, please visit the link below
-            /unsub
+            https://my-upcoming-news.vercel.app/unsubscribe
       `,
     };
 
@@ -130,7 +130,7 @@ async function SendNewsRoute(
             \n
             \n
             To unsubscribe from our email newsletter, please visit the link below
-            /unsub
+            https://my-upcoming-news.vercel.app/unsubscribe
       `,
     };
 
