@@ -1,0 +1,28 @@
+{
+  "name": "newsletter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^7.4.3",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.9.4",
+    "path": "^0.12.7",
+    "requests": "^0.3.0",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

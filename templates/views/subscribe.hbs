@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>NewsLetter</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="stylesheet" href="./css/toast.css">
+
+  <script src="./js/toast.js" defer></script>
+
+</head>
+
+<body>
+
+  <div id="login-form-wrap">
+    <h2>News Letter</h2>
+    <form action="/subscribe" method="post" id="login-form">
+      <p>
+        <input type="email" id="userEmail" name="userEmail">
+      </p>
+
+
+
+
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="bussiness" name="bussiness" />
+        <label class="form-check-label" for="bussiness">bussiness</label>
+      </div>
+
+
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="sports" name="sports" />
+        <label class="form-check-label" for="sports">Sports</label>
+      </div>
+
+
+
+
+
+
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="technology" name="technology" />
+        <label class="form-check-label" for="technology">technology</label>
+      </div>
+
+
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="entertainment" name="entertainment" />
+        <label class="form-check-label" for="entertainment">entertainment</label>
+      </div>
+
+
+
+
+      <p>
+
+        <input type="submit" id="subscribe " name="submit" value="Subscribe">
+
+
+
+      </p>
+
+    </form>
+    <div id="create-account-wrap">
+      <p>My Upcoming News
+      <p>
+    </div>
+
+  </div>
+
+  {{!-- <button onclick="myFunction()">Show Snackbar</button> --}}
+
+  {{#if triggerToast}}
+  <div class="toastArea">
+
+    <div id="snackbar">{{userEmail}} is Already subscribed &nbsp; <i class="fa fa-close" onclick="myFunction()"></i>
+    </div>
+  </div>
+
+  {{/if}}
+
+
+</body>
+
+</html>

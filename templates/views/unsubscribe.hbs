@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>NewsLetter</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+   
+  <link rel="stylesheet" href="./css/toast.css">
+  
+  <script src="./js/toast.js" defer></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="login-form-wrap">
+  <h2>unsubscribe</h2>
+  <form action="/unsubscribetoast" method="POST" id="login-form">
+     
+      <p>
+      <input type="email" id="userEmail" name="userEmail" placeholder="Enter your E-mail" required>
+      </p>
+    
+    <p>
+    <input type="submit" id="login" value="unSubscribe">
+    </p>
+  </form>
+  <div id="create-account-wrap">
+    <p>My Upcoming News<p>
+  </div><!--create-account-wrap-->
+</div><!--login-form-wrap-->
+<!-- partial -->
+  
+  {{#if triggerToast}}
+<div class="toastArea">
+
+<div id="snackbar">{{userEmail}} {{msg}} &nbsp; <i class="fa fa-close" onclick="myFunction()"></i></div>
+</div>
+
+{{/if}}
+
+</body>
+</html>
