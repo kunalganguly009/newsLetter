@@ -1,10 +1,11 @@
 
 const axios = require('axios');
+const BASE_URL = process.env.PORT || 'http://localhost:80';
 
 async function SendNewsRequest() {
 
     try {
-        const response = await axios.post('/sendNews', {
+        const response = await axios.post(`${BASE_URL}/sendNews`, {
             // Add any necessary request data here
         });
 
