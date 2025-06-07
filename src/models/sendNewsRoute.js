@@ -44,7 +44,7 @@ async function SendNewsRoute(
       
       
 To unsubscribe from our email newsletter, please visit:
-https://my-upcoming-news.vercel.app/unsubscribe`;
+https://newsletter-ijrv.onrender.com/unsubscribe`;
 
     const mailConfigs = [
       {
